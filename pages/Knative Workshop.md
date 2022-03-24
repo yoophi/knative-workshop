@@ -11,17 +11,22 @@
 		- [Knative 설치](((62245414-02aa-4334-8bc7-03249feafd15)))
 		- [Istio 설치](((62245470-b84f-4e37-981a-1a35f9ea6236)))
 		- [Kong API Gateway 설치](((6224516f-3447-4c51-b36d-d4a83fc31437)))
-		- Route53 설정
 	- [[Istio ingress gateway]] 대신 [[Kong API Gateway]] 를 사용하도록 설정합니다.
 		- [Knative에서 Kong API Gateway 사용하도록 설정](((62246b4e-f8ce-4aed-ab73-70debe5e68a2)))
 	- AWS [[Route53]] 서비스을 이용하여 와일드카드 도메인에 [[Knative Serving]] 서비스를
 	  연결합니다.
+		- [Route53 설정]([[Knative를 위한 Route53 설정]])
 	- [[cert-manager]] 를 이용하여 [[https 인증서]]를 자동으로 발급받을 수 있도록 합니다.
+		- cert-manager 설치
+		- letsencrypt-prod ClusterIssuer 추가
+	- [[Enabling auto-TLS certs]]
+	- Network Override
+		- configmap
+	- 첫번째 Kservice 배포
 	- [[Knative Serving]] 을 이용하여 private 서비스를 배포하고, 
 	  [[Kong API Gateway]] 를 이용하여 host / path 기반의 [[Routing]] 을 구성합니다.
 	- [[Knative Serving]] 을 이용하여 배포된 Ingress Rule 에 [[Kong Plugin]] 을 적용할 수 있도록
 	  합니다.
-## Cookbook
+- # Cookbook
 	- [[Github Event]]로 도커 이미지를 자동으로 생성해봅니다.
 	- [[Slack]] 에 Daily Summary 메시지를 전송하는 Cronjob Event 를 생성해봅니다.
--

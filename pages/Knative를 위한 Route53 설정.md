@@ -1,0 +1,2 @@
+- `example.com`에 대한 host zone 설정
+- `kn.example.com` 및 `*.kn.example.com` 에 대한 A Record 설정

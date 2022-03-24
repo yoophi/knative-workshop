@@ -1,0 +1,4 @@
+- `eksctl`은 [[EKS]] 내에서 kubernetes cluster 를 쉽게 생성하고 관리할 수 있는 CLI 도구입니다. `eksctl`은 Go로 작성되었고, 내부적으로 CloudFormation을 사용합니다.
+- Links
+	- https://eksctl.io/ - 공식 홈페이지
+	- [Amazon EKS 시작하기 - eksctl](https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/getting-started-eksctl.html)
