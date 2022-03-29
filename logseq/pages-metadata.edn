@@ -31,6 +31,9 @@
  {:block/name "eksctl",
   :block/created-at 1646657394906,
   :block/updated-at 1646657590779}
+ {:block/name "enabling auto-tls certs",
+  :block/created-at 1648122388876,
+  :block/updated-at 1648122829973}
  {:block/name "favorites",
   :block/created-at 1647603002503,
   :block/updated-at 1647603002503}
@@ -46,6 +49,9 @@
  {:block/name "index",
   :block/created-at 1647603002504,
   :block/updated-at 1647603002504}
+ {:block/name "install strimzi operator",
+  :block/created-at 1648571218522,
+  :block/updated-at 1648571218522}
  {:block/name "istio",
   :block/created-at 1647603002509,
   :block/updated-at 1647603002509}
@@ -54,7 +60,7 @@
   :block/updated-at 1647603002509}
  {:block/name "knative",
   :block/created-at 1647603002504,
-  :block/updated-at 1647603002504}
+  :block/updated-at 1648571423103}
  {:block/name "knative serving",
   :block/created-at 1647603002503,
   :block/updated-at 1647603002503}
@@ -79,6 +85,12 @@
  {:block/name "later",
   :block/created-at 1647603002504,
   :block/updated-at 1647603002504}
+ {:block/name "mar 24th, 2022",
+  :block/created-at 1648113078408,
+  :block/updated-at 1648113078408}
+ {:block/name "mar 30th, 2022",
+  :block/created-at 1648571218687,
+  :block/updated-at 1648571218687}
  {:block/name "mar 7th, 2022",
   :block/created-at 1646611200000,
   :block/updated-at 1646611200000}
@@ -110,5 +122,8 @@
   :block/created-at 1647603002509,
   :block/updated-at 1647603002509}
  {:block/name "waiting",
-  :block/created-at 1647603002503, 
-  :block/updated-at 1647603002503}]
+  :block/created-at 1647603002503,
+  :block/updated-at 1647603002503}
+ {:block/name "영상 프로세스 미팅",
+  :block/created-at 1648113077809, 
+  :block/updated-at 1648113077809}]
