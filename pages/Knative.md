@@ -97,6 +97,7 @@
 	-
 - Kservice 배포 및 정상 작동 테스트
   heading:: true
+  id:: 624454f0-2cf8-44e9-b0a7-2c712ded230f
 	- 아래 방법으로 `helloworld-go` kservice 를 배포하고 확인합니다.
 		- ```sh
 		  cat <<EOF | kubectl apply -f -
@@ -113,7 +114,7 @@
 		            env:
 		              - name: TARGET
 		                value: Go Sample v1
-		  				EOF
+		  EOF
 		  ```
 	- 정상 작동하면, 아래와 같은 출력을 얻을 수 있습니다. 도메인을 세팅한 경우, `<your-ip>.nip.io` 대신 `example.com` 처럼 등록한 도메인을 사용하세요.
 		- ```sh

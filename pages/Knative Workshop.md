@@ -21,7 +21,7 @@
 		- LATER cert-manager 설치
 		- LATER letsencrypt-prod ClusterIssuer 추가
 	- [[Enabling auto-TLS certs]]
-	- 첫번째 Kservice 배포
+	- ((624454f0-2cf8-44e9-b0a7-2c712ded230f))
 - 업데이트 예정
 	- [[Knative Serving]] 을 이용하여 private 서비스를 배포하고, 
 	  [[Kong API Gateway]] 를 이용하여 host / path 기반의 [[Routing]] 을 구성합니다.
