@@ -16,13 +16,13 @@
 	- AWS [[Route53]] 서비스을 이용하여 와일드카드 도메인에 [[Knative Serving]] 서비스를
 	  연결합니다.
 		- [Route53 설정]([[Knative를 위한 Route53 설정]])
+	- ((624454f0-0400-4730-b199-0aa03c9e129f))
 	- [[cert-manager]] 를 이용하여 [[https 인증서]]를 자동으로 발급받을 수 있도록 합니다.
-		- cert-manager 설치
-		- letsencrypt-prod ClusterIssuer 추가
+		- LATER cert-manager 설치
+		- LATER letsencrypt-prod ClusterIssuer 추가
 	- [[Enabling auto-TLS certs]]
-	- Network Override
-		- configmap
 	- 첫번째 Kservice 배포
+- 업데이트 예정
 	- [[Knative Serving]] 을 이용하여 private 서비스를 배포하고, 
 	  [[Kong API Gateway]] 를 이용하여 host / path 기반의 [[Routing]] 을 구성합니다.
 	- [[Knative Serving]] 을 이용하여 배포된 Ingress Rule 에 [[Kong Plugin]] 을 적용할 수 있도록
